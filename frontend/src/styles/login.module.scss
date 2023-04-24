@@ -1,0 +1,28 @@
+@import '_vars';
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+
+  .form {
+      margin: 5rem auto;
+
+      .textField {
+        margin-bottom: 1rem;
+      }
+    }
+}
+
+@media (min-width: $desktop) {
+
+  .container {
+    width: 30%;
+  }
+}
+@media (max-width: $tablet) {
+
+  .container {
+    width: 80%;
+  }
+}
+
